@@ -46,7 +46,7 @@ const Home = () => {
             href="https://leetcode.com/your-username"
             target="_blank"
             rel="noopener noreferrer"
-            className="px-8 py-3 text-white font-semibold bg-gradient-to-r from-yellow-500 to-orange-600 rounded-md shadow-md hover:scale-105 transition-transform duration-300 hover:shadow-[0_0_15px_rgba(255,170,0,0.8)]"
+            className="px-8 py-3 text-white text-xl font-semibold bg-gradient-to-r from-yellow-500 to-orange-600 rounded-md shadow-md hover:scale-105 transition-transform duration-300 hover:shadow-[0_0_15px_rgba(255,170,0,0.8)]"
           >
             LeetCode
           </a>
@@ -54,7 +54,7 @@ const Home = () => {
             href="https://github.com/your-username"
             target="_blank"
             rel="noopener noreferrer"
-            className="px-8 py-3 text-white font-semibold bg-gradient-to-r from-indigo-500 to-purple-600 rounded-md shadow-md hover:scale-105 transition-transform duration-300 hover:shadow-[0_0_15px_rgba(150,100,255,0.8)]"
+            className="px-8 py-3 text-white text-xl font-semibold bg-gradient-to-r from-indigo-500 to-purple-600 rounded-md shadow-md hover:scale-105 transition-transform duration-300 hover:shadow-[0_0_15px_rgba(150,100,255,0.8)]"
           >
             GitHub
           </a>
