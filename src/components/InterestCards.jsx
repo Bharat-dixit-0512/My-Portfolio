@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaFilm, FaPlane, FaDrum, FaFutbol } from 'react-icons/fa';
+import { FaPencil } from 'react-icons/fa6';
 
 const InterestCards = () => {
   const interests = [
@@ -18,7 +19,7 @@ const InterestCards = () => {
       color: 'from-yellow-500 to-orange-500',
     },
     {
-      icon: <FaDrum size={40} />,
+      icon: <FaPencil size={40} />,
       title: 'Drawing & Sketching',
       description:
         'Drawing and sketching fuel my creativity — a quiet form of expression that turns ideas into visuals.',
