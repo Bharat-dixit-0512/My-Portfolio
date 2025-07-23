@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <header className="flex justify-center relative font-Exo">
-      <nav className="Mynav flex justify-between items-center bg-black h-16 w-full sticky top-0 z-50 text-white px-4 sm:px-6">
+      <nav className="Mynav flex justify-between items-center fixed bg-black h-16 w-full  top-0 z-50 text-white px-4 sm:px-6">
 
         <div className="text-2xl md:text-3xl">
           Port

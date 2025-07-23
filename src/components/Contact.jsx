@@ -5,8 +5,8 @@ import { SiLinkedin, SiInstagram } from "react-icons/si";
 const Contact = () => {
     return (
 
-        <div className="mt-20 text-white flex flex-col items-center justify-center px-6">
-            <div className="text-center mb-12">
+        <div className=" min-h-screen  bg-gradient-to-b from-gray-900 via-black to-gray-900 text-white flex flex-col items-center justify-center px-6">
+            <div className="text-center mb-12 mt-40">
                 <h1 className="text-6xl md:text-7xl font-extrabold font-serif z-100 drop-shadow-[0_0_8px_rgba(255,0,60,0.8)] bg-gradient-to-r from-white via-red-400 to-red-600 bg-clip-text text-transparent mb-4">
                     CONTACT ME
                 </h1>
