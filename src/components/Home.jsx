@@ -11,7 +11,7 @@ const Home = () => {
             Hello
           </h1>
           <h2 className="text-4xl md:text-4xl font-semibold">
-            I'm <span className="bg-gradient-to-r from-red-400 to-red-600 bg-clip-text text-transparent animate-pulse">Bharat Dixit</span>
+            I'm <span className="bg-gradient-to-r from-red-400 to-red-600 bg-clip-text text-transparent animate-pulse drop-shadow-[0_0_25px_rgba(255,0,0,0.8)]">Bharat Dixit</span>
           </h2>
           <p className="text-lg text-gray-300">
             Passionate Computer Science undergraduate eager to transform ideas into impactful tech solutions. Skilled in crafting innovative, responsive software with an eye for performance and user experience. Continuously evolving through hands-on development and forward-thinking collaboration.
@@ -38,8 +38,8 @@ const Home = () => {
       </div>
 
       <div className="mt-50 min-h-screen text-white w-full max-w-6xl">
-        <h1 className="text-5xl font-bold text-center mb-4 uppercase">My Coding Statistics</h1>
-        <h2 className='text-3xl font-bold text-center mb-4'>DSA Platform</h2>
+        <h1 className="text-5xl font-bold text-center mb-4 uppercase drop-shadow-[0_0_8px_rgba(255,255,255,0.8)]">My Coding Statistics</h1>
+        <h2 className='text-3xl font-bold text-center mb-4 drop-shadow-[0_0_8px_rgba(255,255,255,0.8)]'>DSA Platform</h2>
 
         <div className="flex justify-center items-center gap-10 mt-8 mb-10">
           <a
@@ -77,7 +77,7 @@ const Home = () => {
             <p className="text-3xl font-bold text-yellow-400">600+</p>
           </div>
         </div>
-        <h1 className="text-5xl font-bold text-center mb-10 mt-25 uppercase">Interest & Hobbies</h1>
+        <h1 className="text-5xl font-bold text-center mb-10 mt-25 uppercase drop-shadow-[0_0_8px_rgba(255,255,255,0.8)]">Interest & Hobbies</h1>
         <InterestCards />
 
         <div className="flex justify-center items-center mt-8">
