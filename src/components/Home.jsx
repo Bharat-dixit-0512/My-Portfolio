@@ -4,8 +4,8 @@ import { NavLink } from 'react-router-dom';
 
 const Home = () => {
   return (
-    <section className="min-h-screen  flex flex-col items-center justify-center px-6 py-10 bg-gradient-to-b from-gray-900 via-black to-gray-900">
-      <div className="flex mt-40 flex-col-reverse md:flex-row items-center justify-between gap-12 md:gap-28 max-w-7xl w-full">
+    <section className="min-h-screen fade-in flex flex-col items-center justify-center px-6 py-10 sm:bg-black md:bg-gradient-to-b from-gray-900 via-black to-gray-900">
+      <div className="flex mt-40  flex-col-reverse md:flex-row items-center justify-between gap-12 md:gap-28 max-w-7xl w-full">
         <div className="text-white text-center md:text-left space-y-6 max-w-xl">
           <h1 className="text-5xl font-Exo md:text-6xl font-extrabold leading-tight hover:scale-105 transition-transform duration-300">
             Hello
@@ -37,7 +37,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="mt-50 min-h-screen text-white w-full max-w-6xl">
+      <div className="mt-50 min-h-screen fade-in text-white w-full max-w-6xl">
         <h1 className="text-5xl font-bold text-center mb-4 uppercase drop-shadow-[0_0_8px_rgba(255,255,255,0.8)]">My Coding Statistics</h1>
         <h2 className='text-3xl font-bold text-center mb-4 drop-shadow-[0_0_8px_rgba(255,255,255,0.8)]'>DSA Platform</h2>
 

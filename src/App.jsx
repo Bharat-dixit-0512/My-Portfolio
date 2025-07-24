@@ -5,6 +5,7 @@ import About from "./components/About"
 import Contact from "./components/Contact"
 import Projects from "./components/Projects"
 import Navbar from './components/Navbar.jsx'
+import Certificate from "./components/Certificate.jsx"
 
 function App() {
   const router=createBrowserRouter([
@@ -26,7 +27,7 @@ function App() {
     },
     {
       path:'/Certificate',
-      element:<><Navbar/><Projects/></>
+      element:<><Navbar/><Certificate/></>
     },
    
   ])

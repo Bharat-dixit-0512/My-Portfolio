@@ -16,9 +16,12 @@
   body {
 
     background-color: black;
-
+  }
+  body::-webkit-scrollbar{
+    display: none;
   }
 }
+
 
 @theme {
 
@@ -78,4 +81,20 @@
   50% {
     box-shadow: 0 0 25px rgba(255,0,80,1), 0 0 45px rgba(255,0,80,0.8);
   }
+}
+
+/* styles/global.css or wherever your global styles live */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.8s ease-in-out forwards;
 }
