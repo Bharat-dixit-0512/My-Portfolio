@@ -7,37 +7,49 @@ const Projects = () => {
       id: 1,
       title: 'GitHub Fetcher',
       description: 'Using Html, CSS & JavaScript to fetch and display user profiles from GitHub using dynamic API calls.',
-      image: '/public/githubfetcher.png',
+      image: '/githubfetcher.png',
+      codeLink:'https://github.com/Bharat-dixit-0512/github_fetch',
+      liveLink:'https://github-fetch-detail.netlify.app/'
     },
     {
       id: 2,
       title: 'E-commerce',
       description: 'A sleek e-commerce UI with category filtering, search debounce, and responsive product display.',
-      image: '/public/E-commerce.png',
+      image: '/E-commerce.png',
+      codeLink:'https://github.com/Bharat-dixit-0512/MY_E-Commerce',
+      liveLink:'https://my-ecommerce-0512.netlify.app/'
     },
     {
       id: 3,
       title: 'Password Generator',
       description: 'A customizable password generator with strength indicators and copy-to-clipboard support.',
-      image: '/public/Password Generator.png',
+      image: '/Password Generator.png',
+      codeLink:'https://github.com/Bharat-dixit-0512/MyPasswordGenerator',
+      liveLink:'https://mypasswordgenerator1.netlify.app/'
     },
     {
       id: 4,
       title: 'Color Switcher',
       description: 'Interactive theme toggler built with Tailwind CSS—switch between vibrant color palettes dynamically.',
-      image: '/public/color switcher.png',
+      image: '/color switcher.png',
+      codeLink:'https://github.com/Bharat-dixit-0512/colour-changer-',
+      liveLink:'https://mycolourchanger10.netlify.app/'
     },
     {
       id: 5,
       title: 'iTask-Todo List',
       description: 'A clean and intuitive task manager with add/delete functionality and persistent local storage.',
-      image: '/public/todolist.png',
+      image: '/todolist.png',
+      codeLink:'https://github.com/Bharat-dixit-0512/Todo-List-App',
+      liveLink:'https://my-todo-itask.netlify.app/'
     },
     {
       id: 6,
       title: 'My PortFolio',
       description: 'Personal portfolio showcasing my React skills, deployed projects, and design aesthetic.',
-      image: '/public/PortFolioSite.png',
+      image: '/PortFolioSite.png',
+      codeLink:'/',
+      liveLink:'/'
     },
   ];
 
@@ -90,7 +102,7 @@ const Projects = () => {
               <p className="text-sm text-gray-300">{project.description}</p>
               <div className="flex justify-center gap-6 text-sm font-semibold">
                 <a
-                  href=""
+                  href={project.codeLink}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block px-4 py-2 bg-red-500 text-white rounded-md hover:drop-shadow-[0_0_8px_rgba(255,0,60,0.8)] hover:z-100 hover:bg-red-600 transition-colors duration-300"
@@ -98,7 +110,7 @@ const Projects = () => {
                   🔗 Check Code
                 </a>
                 <a
-                  href=""
+                  href={project.liveLink}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block px-4 py-2 bg-green-500 text-white rounded-md hover:bg-green-600 hover:drop-shadow-[0_4px_6px_rgba(34,197,94,0.5)] hover:z-100 transition-colors duration-300"
