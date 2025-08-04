@@ -8,14 +8,14 @@ const certificates = [
     title: 'Deloitte Virtual Experience Program Certificate',
     description: 'Completed Deloitte tech simulation with coding task expertise.',
     badge: '🎓 Virtual Internship',
-    image: '/public/deloite2.jpg',
+    image: '/deloite2.jpg',
   },
   {
     id: 2,
     title: 'Full Stack Web Development Participation Certificate',
     description: 'Completed Coding Blocks course at GLA University, Mathura.',
     badge: '🏅 Participation',
-    image: '/public/certificate.jpg',
+    image: '/certificate.jpg',
   },
 ];
 
