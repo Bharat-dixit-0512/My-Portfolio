@@ -48,8 +48,8 @@ const Projects = () => {
       title: 'My PortFolio',
       description: 'Personal portfolio showcasing my React skills, deployed projects, and design aesthetic.',
       image: '/PortFolioSite.png',
-      codeLink:'/',
-      liveLink:'/'
+      codeLink:'https://github.com/Bharat-dixit-0512/My-Portfolio',
+      liveLink:'https://my-portfolioisme.netlify.app/'
     },
   ];
 
