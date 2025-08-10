@@ -24,12 +24,12 @@ const About = () => {
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.4, duration: 0.6 }}
-          className="neon-image-wrapper w-64 h-64 mx-78 my-5"
+          className="neon-image-wrapper w-40 sm:w-48 md:w-64 lg:w-72 xl:w-80 h-40 sm:h-48 md:h-64 lg:h-72 xl:h-80 mx-auto my-5"
         >
           <img
             src="/MyPic.jpg"
             alt="Portrait of Bharat Dixit"
-            className="w-full h-full object-cover object-top"
+            className="w-full h-full object-cover object-top rounded-lg"
           />
         </motion.div>
 
@@ -95,9 +95,9 @@ const About = () => {
             Twitter
           </a>
         </div>
-          <h2 className="text-5xl font-bold mb-6 text-white bg-clip-text drop-shadow-[0_0_8px_rgba(255,255,255,0.8)]">
-            Technical Skills
-          </h2>
+        <h2 className="text-5xl font-bold mb-6 text-white bg-clip-text drop-shadow-[0_0_8px_rgba(255,255,255,0.8)]">
+          Technical Skills
+        </h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 text-white text-sm sm:text-base mb-16">
           {[
             'React',
