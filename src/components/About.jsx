@@ -86,7 +86,7 @@ const About = () => {
             LinkedIn
           </a>
           <a
-            href="https://twitter.com/your-username"
+            href="https://x.com/BharatD263969"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-6 py-3 rounded-md text-white text-lg font-semibold bg-gradient-to-r from-cyan-500 via-teal-500 to-blue-500 shadow-md hover:scale-105 transition-all duration-300 hover:shadow-[0_0_15px_rgba(0,255,255,0.8)]"
