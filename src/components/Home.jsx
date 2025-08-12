@@ -43,7 +43,7 @@ const Home = () => {
 
         <div className="flex justify-center items-center gap-10 mt-8 mb-10">
           <a
-            href="https://leetcode.com/your-username"
+            href="https://leetcode.com/u/BharatDixit0512/"
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-3 text-white text-xl font-semibold bg-gradient-to-r from-yellow-500 to-orange-600 rounded-md shadow-md hover:scale-105 transition-transform duration-300 hover:shadow-[0_0_15px_rgba(255,170,0,0.8)]"
@@ -51,7 +51,7 @@ const Home = () => {
             LeetCode
           </a>
           <a
-            href="https://github.com/your-username"
+            href="https://github.com/Bharat-dixit-0512"
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-3 text-white text-xl font-semibold bg-gradient-to-r from-indigo-500 to-purple-600 rounded-md shadow-md hover:scale-105 transition-transform duration-300 hover:shadow-[0_0_15px_rgba(150,100,255,0.8)]"
