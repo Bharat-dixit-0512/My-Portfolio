@@ -28,7 +28,7 @@ const Home = () => {
           </a>
         </div>
 
-        <div className="neon-image-wrapper w-64 h-64">
+        <div className="neon-image-wrapper w-32 sm:w-40 md:w-52 lg:w-60 xl:w-64 h-32 sm:h-40 md:h-52 lg:h-60 xl:h-64 my-5">
           <img
             src="/MyPic.jpg"
             alt="Bharat Dixit"
