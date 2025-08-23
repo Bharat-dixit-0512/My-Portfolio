@@ -34,7 +34,7 @@ const Contact = () => {
                     <h4 className="bg-gradient-to-r from-white via-red-400 to-red-600 bg-clip-text text-transparent font-bold uppercase text-sm mb-1 tracking-wide">
                         Email Me @
                     </h4>
-                    <p className="text-sm">dixitbt0512@gmail.com</p>
+                    <a href='mail:dixitbt0512@gmail.com' target='_blank' alt='Mail Id' className="text-sm">dixitbt0512@gmail.com</a>
                 </div>
 
 
@@ -43,7 +43,7 @@ const Contact = () => {
                     <h4 className="bg-gradient-to-r from-white via-red-400 to-red-600 bg-clip-text text-transparent font-bold uppercase text-sm mb-1 tracking-wide">
                         Call Me @
                     </h4>
-                    <p className="text-sm">Mobile:+91 941-265-9692</p>
+                    <a href='tel:+919412659692' alt='Mobile No.' className="text-sm">Mobile:+91 941-265-9692</a>
                 </div>
             </div>
 
