@@ -2,4 +2,4 @@
 # React + Vite
 
 ## 🚀 Live Preview
-Check out the live version [here]().
+Check out the live version [here](https://my-portfoliois.netlify.app/).
