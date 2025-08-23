@@ -34,7 +34,9 @@ const Contact = () => {
                     <h4 className="bg-gradient-to-r from-white via-red-400 to-red-600 bg-clip-text text-transparent font-bold uppercase text-sm mb-1 tracking-wide">
                         Email Me @
                     </h4>
-                    <a href='mail:dixitbt0512@gmail.com' target='_blank' alt='Mail Id' className="text-sm">dixitbt0512@gmail.com</a>
+                    <a href="mailto:dixitbt0512@gmail.com" target="_blank" alt="Mail Id" className="text-sm">
+                        dixitbt0512@gmail.com
+                    </a>
                 </div>
 
 
