@@ -16,12 +16,12 @@ const Navbar = () => {
     <header className="flex justify-center relative font-Exo">
       <nav className="Mynav flex justify-between items-center fixed bg-black h-16 w-full  top-0 z-50 text-white px-4 sm:px-6">
 
-        <div className="text-2xl md:text-3xl">
+        <NavLink to='/'><div className="text-2xl md:text-3xl">
           Port
           <span className="text-red-500 drop-shadow-[0_0_8px_rgba(255,0,60,0.8)] animate-pulse">
             Folio
           </span>
-        </div>
+        </div></NavLink>
 
         <div className="hidden sm:flex gap-4 md:gap-8 lg:gap-10 text-base md:text-xl mx-4">
           {navItems.map(({ path, label }) => (
