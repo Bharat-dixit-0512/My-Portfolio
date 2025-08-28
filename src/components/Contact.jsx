@@ -26,7 +26,7 @@ const Contact = () => {
                     <h4 className="bg-gradient-to-r from-white via-red-400 to-red-600 bg-clip-text text-transparent font-bold uppercase text-sm mb-1 tracking-wide">
                         Find Me @
                     </h4>
-                    <p className="text-sm ">Mathura</p>
+                    <a href='https://www.google.com/maps/place/Vrindavan,+Uttar+Pradesh/@27.5648154,77.6593709,13z/data=!3m1!4b1!4m6!3m5!1s0x39736fcb5e9a2309:0x9868374c5faaf3ce!8m2!3d27.5650088!4d77.6593394!16zL20vMDRmeXFm?entry=ttu&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D' target='_blank' className="text-sm ">Vrindavan</a>
                 </div>
 
                 <div className="flex flex-col items-center text-center">
