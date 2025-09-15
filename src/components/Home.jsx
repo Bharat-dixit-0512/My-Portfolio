@@ -30,7 +30,7 @@ const Home = () => {
 
         <div className="neon-image-wrapper w-32 sm:w-40 md:w-52 lg:w-60 xl:w-64 h-32 sm:h-40 md:h-52 lg:h-60 xl:h-64 my-5">
           <img
-            src="/MyPic.jpg"
+            src="/MeImage.png"
             alt="Bharat Dixit"
             className="w-full h-full object-cover object-top rounded-full"
           />
