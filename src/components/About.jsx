@@ -27,7 +27,7 @@ const About = () => {
           className="neon-image-wrapper w-40 sm:w-48 md:w-64 lg:w-72 xl:w-80 h-40 sm:h-48 md:h-64 lg:h-72 xl:h-80 mx-auto my-5"
         >
           <img
-            src="/MyPic.jpg"
+            src="/MeImage.png"
             alt="Portrait of Bharat Dixit"
             className="w-full h-full object-cover object-top rounded-lg"
           />
