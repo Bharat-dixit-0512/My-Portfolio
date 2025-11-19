@@ -44,6 +44,15 @@ const Projects = () => {
       codeLink:'https://github.com/Bharat-dixit-0512/My-Portfolio',
       liveLink:'https://my-portfolioisme.netlify.app/'
     },
+    {
+      id: 7,
+      title: 'City Buddy',
+      description: 'This is a Travel Based Project to find places in Unfamiliar City ',
+      image: '/City-Buddy.png',
+      codeLink:'https://github.com/Bharat-dixit-0512/City-Buddy',
+      liveLink:'https://github.com/Bharat-dixit-0512/City-Buddy'
+    },
+
   ];
 
   return (

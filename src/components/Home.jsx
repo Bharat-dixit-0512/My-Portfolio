@@ -62,11 +62,11 @@ const Home = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 px-4">
           <div className="bg-gradient-to-br from-gray-800 to-gray-900 p-6 rounded-lg shadow-lg hover:scale-105 transition-all duration-300 border-t-4 border-pink-500 text-center">
             <h2 className="text-xl font-semibold mb-2">Projects</h2>
-            <p className="text-3xl font-bold text-pink-400">5+</p>
+            <p className="text-3xl font-bold text-pink-400">6+</p>
           </div>
           <div className="bg-gradient-to-br from-gray-800 to-gray-900 p-6 rounded-lg shadow-lg hover:scale-105 transition-all duration-300 border-t-4 border-red-500 text-center">
             <h2 className="text-xl font-semibold mb-2">Languages</h2>
-            <p className="text-3xl font-bold text-red-400">Java, C, HTML, React, JS, CSS</p>
+            <p className="text-3xl font-bold text-red-400">Java, HTML, React, JS, Nodejs, CSS</p>
           </div>
           <div className="bg-gradient-to-br from-gray-800 to-gray-900 p-6 rounded-lg shadow-lg hover:scale-105 transition-all duration-300 border-t-4 border-indigo-500 text-center">
             <h2 className="text-xl font-semibold mb-2">GitHub Commits</h2>
