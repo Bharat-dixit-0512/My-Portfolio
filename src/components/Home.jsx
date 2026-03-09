@@ -62,7 +62,7 @@ const Home = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 px-4">
           <div className="bg-gradient-to-br from-gray-800 to-gray-900 p-6 rounded-lg shadow-lg hover:scale-105 transition-all duration-300 border-t-4 border-pink-500 text-center">
             <h2 className="text-xl font-semibold mb-2">Projects</h2>
-            <p className="text-3xl font-bold text-pink-400">6+</p>
+            <p className="text-3xl font-bold text-pink-400">-</p>
           </div>
           <div className="bg-gradient-to-br from-gray-800 to-gray-900 p-6 rounded-lg shadow-lg hover:scale-105 transition-all duration-300 border-t-4 border-red-500 text-center">
             <h2 className="text-xl font-semibold mb-2">Languages</h2>
@@ -70,11 +70,11 @@ const Home = () => {
           </div>
           <div className="bg-gradient-to-br from-gray-800 to-gray-900 p-6 rounded-lg shadow-lg hover:scale-105 transition-all duration-300 border-t-4 border-indigo-500 text-center">
             <h2 className="text-xl font-semibold mb-2">GitHub Commits</h2>
-            <p className="text-3xl font-bold text-indigo-400">80+</p>
+            <p className="text-3xl font-bold text-indigo-400">400+</p>
           </div>
           <div className="bg-gradient-to-br from-gray-800 to-gray-900 p-6 rounded-lg shadow-lg hover:scale-105 transition-all duration-300 border-t-4 border-yellow-500 text-center">
-            <h2 className="text-xl font-semibold mb-2">Hours Coding</h2>
-            <p className="text-3xl font-bold text-yellow-400">600+</p>
+            <h2 className="text-xl font-semibold mb-2">Hours Coding/Day</h2>
+            <p className="text-3xl font-bold text-yellow-400">10+</p>
           </div>
         </div>
         <h1 className="text-5xl font-bold text-center mb-10 mt-25 uppercase drop-shadow-[0_0_8px_rgba(255,255,255,0.8)]">Interest & Hobbies</h1>

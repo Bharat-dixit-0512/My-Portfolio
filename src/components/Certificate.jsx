@@ -1,28 +1,40 @@
-import React, { useState } from 'react';
-import { motion } from 'framer-motion';
+import React, { useState } from "react";
+import { motion } from "framer-motion";
 
 // Certificate data
 const certificates = [
   {
     id: 1,
-    title: 'Deloitte Virtual Experience Program Certificate',
-    description: 'Completed Deloitte tech simulation with coding task expertise.',
-    badge: '🎓 Virtual Internship',
-    image: '/deloite2.jpg',
+    title: "Deloitte Virtual Experience Program Certificate",
+    description:
+      "Completed Deloitte tech simulation with coding task expertise.",
+    badge: "🎓 Virtual Internship",
+    image: "/deloite2.jpg",
   },
   {
     id: 2,
-    title: 'Full Stack Web Development Participation Certificate',
-    description: 'Completed Coding Blocks course at GLA University, Mathura.',
-    badge: '🏅 Participation',
-    image: '/certificate.jpg',
+    title: "Full Stack Web Development Participation Certificate",
+    description: "Completed Coding Blocks course at GLA University, Mathura.",
+    badge: "🏅 Participation",
+    image: "/certificate.jpg",
   },
+
   {
     id: 3,
-    title: 'Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate',
-    description: 'Certified in AI foundations on Oracle Cloud Infrastructure, August 2025.',
-    badge: '🏅 Participation',
-    image: '/oracle1.jpg',
+    title: "Postman API Fundamentals Student Expert",
+    description: "Official certification awarded by Postman",
+    badge: "🏅 Achievement",
+    image: "/postman.png",
+  },
+
+  {
+    id: 4,
+    title:
+      "Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate",
+    description:
+      "Certified in AI foundations on Oracle Cloud Infrastructure, August 2025.",
+    badge: "🏅 Participation",
+    image: "/oracle1.jpg",
   },
 ];
 

@@ -100,14 +100,20 @@ const About = () => {
         </h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 text-white text-sm sm:text-base mb-16">
           {[
+            'HTML',
+            'CSS',
             'React',
-            'Next.js',
-            'Node.js',
+            'Node.js + Express',
             'Tailwind CSS',
             'JavaScript',
             'MongoDB',
             'Express',
             'Git',
+            'JAVA',
+            'C#/.net',
+            'Python(Basic)',
+
+
           ].map(skill => (
             <div
               key={skill}
